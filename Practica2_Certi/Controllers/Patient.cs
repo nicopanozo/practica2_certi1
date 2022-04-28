@@ -5,11 +5,7 @@ namespace Practica2_Certi
     public class Patient
     {
         public String Name { get; set; }
-
-        public int TemperatureC { get; set; }
-
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-
-        public string Summary { get; set; }
+        public String LastName { get; set; }
+        public int CI { get; set; }
     }
 }
