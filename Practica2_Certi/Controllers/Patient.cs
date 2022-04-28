@@ -6,6 +6,6 @@ namespace Practica2_Certi
     {
         public String Name { get; set; }
         public String LastName { get; set; }
-        public int CI { get; set; }
+        public String CI { get; set; }
     }
 }

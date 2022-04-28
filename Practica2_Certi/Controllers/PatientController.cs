@@ -11,29 +11,19 @@ namespace Practica2_Certi.Controllers
     [Route("[controller]")]
     public class PatientController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
+        public PatientController()
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
-        private readonly ILogger<PatientController> _logger;
-
-        public PatientController(ILogger<PatientController> logger)
-        {
-            _logger = logger;
+            
         }
 
         [HttpGet]
-        public IEnumerable<Patient> Get()
+        public IActionResult GetPatients()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new Patient
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
+            List<Patient> retrievedPatients = new List<Patient>();
+            retrievedPatients.Add(new Patient() { Name = "Nicolas",LastName = "Panozo", CI = "6500000" });
+            retrievedPatients.Add(new Patient() { Name = "Michael",LastName = "Jordan", CI = "4578209" });
+            retrievedPatients.Add(new Patient() { Name = "Adam",LastName = "Sandler", CI = "438294" });
+            return Ok(retrievedPatients);
         }
     }
 }
