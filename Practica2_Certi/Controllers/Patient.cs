@@ -2,9 +2,9 @@ using System;
 
 namespace Practica2_Certi
 {
-    public class WeatherForecast
+    public class Patient
     {
-        public DateTime Date { get; set; }
+        public String Name { get; set; }
 
         public int TemperatureC { get; set; }
 
