@@ -1,6 +1,6 @@
 using System;
 
-namespace Practica2_Certi
+namespace Logic
 {
     public class Patient
     {
