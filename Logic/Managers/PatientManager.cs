@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Logic.Entities;
 
-namespace Logic
+namespace Logic.Managers
 {
     public class PatientManager
     {
@@ -16,6 +17,8 @@ namespace Logic
             retrievedPatients.Add(new Patient() { Name = "Adam", LastName = "Sandler", CI = "438294" });
             return retrievedPatients;
         }
+
+
         
 
     }
