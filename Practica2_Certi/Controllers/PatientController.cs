@@ -27,22 +27,21 @@ namespace Practica2_Certi.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreatePatients()
+        public IActionResult CreatePatients(string name, string lastname, string ci)
         {
             PatientManager patientManager = new PatientManager();
-            return Ok(patientManager.GetPatients());
+            Patient createdPatient = patientManager.CreatePatient(name,lastname,ci);
+            return Ok(createdPatient);
         }
         [HttpPut]
         public IActionResult UpdatePatients()
         {
-            PatientManager patientManager = new PatientManager();
-            return Ok(patientManager.GetPatients());
+            return Ok();
         }
         [HttpDelete]
         public IActionResult DeletePatients()
         {
-            PatientManager patientManager = new PatientManager();
-            return Ok(patientManager.GetPatients());
+            return Ok();
         }
     }
 }

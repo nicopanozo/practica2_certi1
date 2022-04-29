@@ -24,10 +24,11 @@ namespace Logic.Managers
             return _patients;
         }
 
-        public void CreatePatient(string name, string lastname, string ci)
+        public Patient CreatePatient(string name, string lastname, string ci)
         {
             Patient createdPatient= new Patient() { Name = name, LastName = lastname, CI = ci };
             _patients.Add(createdPatient);
+            return createdPatient;
         }
 
 
