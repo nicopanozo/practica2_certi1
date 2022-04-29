@@ -26,7 +26,8 @@ namespace Logic.Managers
 
         public void CreatePatient(string name, string lastname, string ci)
         {
-            Patient createdStudent = new Patient() { Name = name, LastName = lastname, CI = ci };
+            Patient createdPatient= new Patient() { Name = name, LastName = lastname, CI = ci };
+            _patients.Add(createdPatient);
         }
 
 
