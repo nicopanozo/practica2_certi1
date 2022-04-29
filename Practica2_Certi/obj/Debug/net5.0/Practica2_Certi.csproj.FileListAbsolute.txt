@@ -25,3 +25,7 @@ C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Practica2_Certi\obj\Debug\net
 C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Practica2_Certi\obj\Debug\net5.0\ref\Practica2_Certi.dll
 C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Practica2_Certi\obj\Debug\net5.0\Practica2_Certi.pdb
 C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Practica2_Certi\obj\Debug\net5.0\Practica2_Certi.genruntimeconfig.cache
+C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Practica2_Certi\bin\Debug\net5.0\Logic.dll
+C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Practica2_Certi\bin\Debug\net5.0\Logic.pdb
+C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Practica2_Certi\obj\Debug\net5.0\Practica2_Certi.csproj.AssemblyReference.cache
+C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Practica2_Certi\obj\Debug\net5.0\Practica2_Certi.csproj.CopyComplete
