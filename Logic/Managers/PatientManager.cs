@@ -4,18 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Logic.Entities;
-
+    
 namespace Logic.Managers
 {
     public class PatientManager
     {
+        private List<Patient> _patients;
+        public PatientManager()
+        {
+            _patients = new List<Patient>();
+            _patients.Add(new Patient() { Name = "Nicolas", LastName = "Panozo", CI = "6500000" });
+            _patients.Add(new Patient() { Name = "Michael", LastName = "Jordan", CI = "4578209" });
+            _patients.Add(new Patient() { Name = "Adam", LastName = "Sandler", CI = "438294" });
+        }
+
         public List<Patient> GetPatients()
         {
-            List<Patient> retrievedPatients = new List<Patient>();
-            retrievedPatients.Add(new Patient() { Name = "Nicolas", LastName = "Panozo", CI = "6500000" });
-            retrievedPatients.Add(new Patient() { Name = "Michael", LastName = "Jordan", CI = "4578209" });
-            retrievedPatients.Add(new Patient() { Name = "Adam", LastName = "Sandler", CI = "438294" });
-            return retrievedPatients;
+            
+            return _patients;
+        }
+
+        public void CreatePatient(string name, string lastname, string ci)
+        {
+            Patient createdStudent = new Patient() { Name = name, LastName = lastname, CI = ci };
         }
 
 

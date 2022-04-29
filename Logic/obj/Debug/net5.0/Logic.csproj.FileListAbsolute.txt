@@ -9,3 +9,4 @@ C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Logic\obj\Debug\net5.0\Logic.
 C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Logic\obj\Debug\net5.0\Logic.dll
 C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Logic\obj\Debug\net5.0\ref\Logic.dll
 C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Logic\obj\Debug\net5.0\Logic.pdb
+C:\Users\nicopanozo\Desktop\Certi1\Practica2_Certi\Logic\obj\Debug\net5.0\Logic.csproj.AssemblyReference.cache

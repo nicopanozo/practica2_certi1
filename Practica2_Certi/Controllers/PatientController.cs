@@ -20,8 +20,6 @@ namespace Practica2_Certi.Controllers
         }
 
         [HttpGet]
-        //[Route("")]
-
         public IActionResult GetPatients()
         {
             PatientManager patientManager = new PatientManager();

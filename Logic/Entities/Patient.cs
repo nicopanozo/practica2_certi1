@@ -1,6 +1,6 @@
 using System;
 
-namespace Logic
+namespace Logic.Entities
 {
     public class Patient
     {
